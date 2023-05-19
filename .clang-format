@@ -1,0 +1,58 @@
+---
+BasedOnStyle: LLVM
+Language: Cpp
+ColumnLimit: '80'
+MaxEmptyLinesToKeep: '1'
+IndentWidth: '2'
+PPIndentWidth: '2'
+BreakBeforeBraces: Allman
+BreakBeforeTernaryOperators: 'true'
+BreakBeforeBinaryOperators: 'true'
+BreakStringLiterals: 'true'
+IndentCaseLabels: 'true'
+PenaltyBreakComment: '0'
+SpaceAroundPointerQualifiers: Both
+ReflowComments: 'true'
+SpaceAfterCStyleCast: 'false'
+SpaceAfterLogicalNot: 'false'
+SpaceBeforeAssignmentOperators: 'true'
+SpaceInEmptyParentheses: 'false'
+SpacesInCStyleCastParentheses: 'false'
+SpacesInParentheses: 'false'
+SpacesInSquareBrackets: 'false'
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveBitFields: Consecutive
+AlignConsecutiveDeclarations: Consecutive
+AlignConsecutiveMacros: Consecutive
+AlignOperands: 'true'
+AlignEscapedNewlines: Right
+AlignTrailingComments: 'true'
+IndentGotoLabels: 'false'
+AllowAllArgumentsOnNextLine: 'false'
+AllowAllParametersOfDeclarationOnNextLine: 'false'
+BinPackParameters: 'false'
+BinPackArguments: 'true'
+PenaltyBreakBeforeFirstCallParameter: '100'
+PenaltyBreakAssignment: '1000'
+SortIncludes: 'false'
+PenaltyBreakOpenParenthesis: '1000'
+QualifierAlignment: Custom
+QualifierOrder: ['static', 'inline', 'constexpr', 'const', 'volatile', 'restrict', 'type']
+DerivePointerAlignment: 'false'
+PointerAlignment: Right
+ReferenceAlignment: Right
+SeparateDefinitionBlocks: Always
+# A vector of strings that should be interpreted as attributes/qualifiers 
+# instead of identifiers. This can be useful for language extensions or static 
+# analyzer annotations.
+AttributeMacros: ['__always_inline',
+                  '__attribute_noinline__',
+                  '__attribute_const__',
+                  '__attribute_pure__',
+                  '__attribute_malloc__',
+                  '__attribute_warn_unused_result__',
+                  '__attribute_format_arg__',
+                  '__nonnull',
+                  '__THROW',
+                  '__THROWNL']
+...

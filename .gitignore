@@ -1,0 +1,10 @@
+aatree-unit-tests
+libaatree.*
+libaatree-static.*
+Testing
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+DartConfiguration.tcl
+Makefile
